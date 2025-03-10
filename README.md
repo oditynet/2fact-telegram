@@ -8,4 +8,6 @@ Pam.d config:
 Add "auth	requisite	2fact.so" in a /etc/pam.d/system-auth
 
 Example:
+==========================
+
 <img src="https://github.com/oditynet/2fact-telegram/blob/main/out.jpg" title="example" width="500" />
