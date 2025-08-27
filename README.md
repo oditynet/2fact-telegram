@@ -2,7 +2,7 @@
 <img alt="GitHub license" src="https://img.shields.io/github/license/oditynet/2fact-telegram"></img>
 <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/oditynet/2fact-telegram"></img>
 
-# 2FA with Telegram in a consoles and DE 
+# 2FA with Telegram in a consoles and DE, SSH and etc 
 
 This is a PAM module for 2fa authorizate of Telegram channel
 Enter User\password and code at your Telegram bot.
