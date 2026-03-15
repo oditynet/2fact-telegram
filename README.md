@@ -9,6 +9,7 @@ Enter User\password and code at your Telegram bot.
 
 ```
 curl -s -X POST https://api.telegram.org/bot<SECURITY_KEY>/getUpdates - get info about id
+From at bot send any message for him self
 ```
 
 # Build:
