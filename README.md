@@ -7,7 +7,9 @@
 This is a PAM module for 2fa authorizate of Telegram channel
 Enter User\password and code at your Telegram bot.
 
-curl -s -X POST https://api.telegram.org/bot\<SECURITY_KEY\>/getUpdates - get info about id
+```
+curl -s -X POST https://api.telegram.org/bot<SECURITY_KEY>/getUpdates - get info about id
+```
 
 # Build:
 
