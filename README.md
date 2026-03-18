@@ -25,6 +25,12 @@ make
 sudo make install
 #cp pam_2fact.so /usr/lib/security
 ```
+Edit  /etc/pam.d/system-auth
+
+without proxy
+```
+auth    requisite    pam_2fact.so 
+```
 or with proxy
 ```
 auth    requisite    pam_2fact.so proxy="socks5://1.2.3.4:1080" proxy_user="user" proxy_pass="pass"
