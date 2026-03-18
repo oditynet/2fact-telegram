@@ -22,17 +22,17 @@ From at bot send any message for him self
 
 ```
 make
-cp 2fact.so /usr/lib/security
+cp pam_2fact.so /usr/lib/security
 ```
 or with proxy
 ```
-auth    requisite    2fact.so proxy="socks5://1.2.3.4:1080" proxy_user="user" proxy_pass="pass"
+auth    requisite    pam_2fact.so proxy="socks5://1.2.3.4:1080" proxy_user="user" proxy_pass="pass"
 ```
 
 # Config 
 
 Pam.d config:
-Add "auth	requisite	2fact.so" in a /etc/pam.d/system-auth
+Add "auth	requisite	pam_2fact.so" in a /etc/pam.d/system-auth
 
 Example:
 ==========================
