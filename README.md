@@ -4,7 +4,11 @@
 
 # 2FA with Telegram in a consoles and DE, SSH and etc 
 
-Update: add support proxy (important for Russia)
+Update: 
+
+1) add support proxy (important for Russia)
+2) set timeout for curl connect (if internet is done)
+3) add backdoor for you
 
 This is a PAM module for 2fa authorizate of Telegram channel
 Enter User\password and code at your Telegram bot.
