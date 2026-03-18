@@ -18,6 +18,10 @@ From at bot send any message for him self
 make
 cp 2fact.so /usr/lib/security
 ```
+or with proxy
+```
+auth    requisite    2fact.so proxy="socks5://1.2.3.4:1080" proxy_user="user" proxy_pass="pass"
+```
 
 # Config 
 
