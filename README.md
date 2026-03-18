@@ -22,7 +22,8 @@ From at bot send any message for him self
 
 ```
 make
-cp pam_2fact.so /usr/lib/security
+sudo make install
+#cp pam_2fact.so /usr/lib/security
 ```
 or with proxy
 ```
